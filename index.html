@@ -5,11 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trekkers</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="date=no">
+    <link rel="stylesheet" type="text/css" href="lcars-classic.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
-    <h1>Star Trek App</h1>
+    <h1>Federation</h1>
+    <h2>"Go ahead and reveal the intergalactic creature's name you're curious about!"</h2>
+    <p>
+        "Calling all space explorers! Before you embark on thrilling away missions, arm yourself with knowledge about those intriguing extraterrestrial buddies (or rivals) you're about to meet. Just type in the name of the alien species, and let's uncover their cosmic secrets together!" 🚀👽
+    </p>
+
     <input type="text">
-    <button>Click</button>
+    
+    <div class="buttons">
+        <a class="sunflower" id="getButton">Get Info</a>
+    </div>
+
+    <div class="pics-right">
+        <img src="" alt="alien image" class="border" id="alienImage">
+        <p class="caption" id="alientCaption">Photo</p>
+    </div>
+
+    <ul class="lcars-list">
+        <li><span>Species Name: </span><span id="alienName"></span></li>
+        <li><span>Homeworld: </span><span id="alienWorld"></span></li>
+        <li><span>Distinguishing Features: </span><span id="alienFeatures"></span></li>
+        <li><span>Interesting Fact(s): </span><span id="alienFacts"></span></li>
+        <li><span>Notable Examples: </span><span id="alienExamples"></span></li>
+    </ul>
     <script src="main.js"></script>
 </body>
 </html>
