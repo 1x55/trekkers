@@ -16,8 +16,8 @@ https://trekkers1.netlify.app/
 ## Lessons Learned:
 
 - API Integration: Integrating an external API adds valuable and up-to-date data to your application. Ensure that the API is reliable and well-documented to avoid potential issues.
-- User Experience: Learnt from  https://www.thelcars.com/ the importance to provide clear instructions. 
-- 
+- User Experience: Learnt from  https://www.thelcars.com/ the importance to provide clear documentation. 
+  
 ## Optimisation:
 - Adding error handling and validation for user inputs.
 - Caching: Implement caching mechanisms, both on the client and server sides, to reduce the load on the API and improve response times.
