@@ -7,6 +7,15 @@ async function apiRequest() {
          const response = await fetch(`https://galatic-trek.cyclic.app/api/${alienName}`)
          const data = await response.json()
          console.log(data)
+
+     document.getElementById('alienName').innerText = data.speciesName;
+     document.getElementById('alienWorld').innerText = data.homeworld;
+     document.getElementById('alienFeatures').innerText = data.alienFeatures;
+     document.getElementById('alienFacts').innerText = data.interestingFact;
+     document.getElementById('alienExamples').innerText = data.notableExamples;
+
+     document.getElementById('alienImage').src = data.image;
+     document.getElementById('alienCaption').innerText = data.speciesName;
     } catch(err) {
          console.log(err)
     }
