@@ -4,7 +4,7 @@ document.getElementById('getButton').addEventListener('click', apiRequest)
 async function apiRequest() {
     const alienName = document.querySelector('input').value
     try {
-         const response = await fetch(`https://galatic-trek.cyclic.app/api/${alienName}`)
+         const response = await fetch(`https://gorgeous-tutu-crow.cyclic.cloud/api/${alienName}`)
          const data = await response.json()
          console.log(data)
 
